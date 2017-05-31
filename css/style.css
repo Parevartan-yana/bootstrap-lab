@@ -1,0 +1,117 @@
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bg-profile {
+    background-color: #DAF7A6 
+;
+}
+
+.cover-profile {
+	color: #3498db;
+}
+
+.cover-profile img.cover-image{
+    z-index: 0;
+    width: 100%;  
+    margin-bottom: 10px;
+}
+
+.cover-profile-image {
+	margin: -150px 10px 0px 50px;
+    z-index: 1;
+    width: 20%; 
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.nav-pills>li >a {
+    color: #fff;
+}
+
+.nav-pills>li >a:hover {
+    color: #2e86c1;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #5e0231;
+}
+
+.bg-contact {
+    background-image: url("../images/background.png");
+}
+
+.contact {
+    border: 1px solid #fff;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.header {
+  color: #fff;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.formicon {
+  font-size:25px;
+  color: #b1bf7c;
+}
+
+.address-text {
+  color: #f4d03f;
+  font-size: 16px;
+}
+
+hr {
+  padding: 0px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.map {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  line-height: 1.4;
+  color: #f1c40f;
+  font-size: 18px;
+  background-color: #222;
+  padding: 25px 0px;
+}
+
+.socialicon {
+  font-size:20px;
+  color: #9d9d9d;
+  padding-right: 5px;
+}
+
+@media (max-width:768px) {
+
+	.cover-profile-image {
+		margin: -45px 10px 0px 25px;
+	    z-index: 1;
+	    width: 20%; 
+	}
+	.cover-profile-text>h1 {
+		font-weight: 700;
+    font-size:27px;
+	}
+	.cover-profile-text>h3 {
+		font-weight: 700;
+    font-size:20px;
+	}
+
+}
